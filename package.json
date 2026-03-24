@@ -1,0 +1,33 @@
+{
+  "name": "alterion-medusa-backend",
+  "version": "0.0.1",
+  "description": "A starter for Medusa projects.",
+  "author": "Medusa (https://medusajs.com)",
+  "license": "MIT",
+  "keywords": [
+    "sqlite",
+    "postgres",
+    "typescript",
+    "ecommerce",
+    "headless",
+    "medusa"
+  ],
+  "scripts": {
+    "build": "medusa build",
+    "seed": "medusa exec ./src/scripts/seed.ts",
+    "start": "medusa start",
+    "dev": "medusa develop",
+    "test:integration:http": "TEST_TYPE=integration:http NODE_OPTIONS=--experimental-vm-modules jest --silent=false --runInBand --forceExit",
+    "test:integration:modules": "TEST_TYPE=integration:modules NODE_OPTIONS=--experimental-vm-modules jest --silent=false --runInBand --forceExit",
+    "test:unit": "TEST_TYPE=unit NODE_OPTIONS=--experimental-vm-modules jest --silent --runInBand --forceExit"
+  },
+  "dependencies": {
+    "@medusajs/cli": "^2.13.4",
+    "@medusajs/framework": "^2.13.4",
+    "@medusajs/medusa": "^2.13.4"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "npm@10.9.2"
+}
