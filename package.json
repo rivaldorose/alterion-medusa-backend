@@ -25,6 +25,7 @@
     "@medusajs/cli": "^2.13.4",
     "@medusajs/framework": "^2.13.4",
     "@medusajs/medusa": "^2.13.4",
+    "@mikro-orm/postgresql": "^7.0.9",
     "@variablevic/mollie-payments-medusa": "^0.0.13"
   },
   "engines": {
