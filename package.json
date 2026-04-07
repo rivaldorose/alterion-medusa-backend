@@ -24,7 +24,8 @@
   "dependencies": {
     "@medusajs/cli": "^2.13.4",
     "@medusajs/framework": "^2.13.4",
-    "@medusajs/medusa": "^2.13.4"
+    "@medusajs/medusa": "^2.13.4",
+    "@variablevic/mollie-payments-medusa": "^0.0.13"
   },
   "engines": {
     "node": ">=20"
